@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-:root {
+/*:root {
     --fonte-titulo-principal: 'Pacifico', cursive;
     --fonte-sub-titulo: 'VT323', monospace;
     --fonte-padrao: Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@
     --cor03: #F04D96;
     --cor04: #6E2345;
     --cor05: #704558;
-}
+}*/
 
 .linkExterno::after {
     content: ' 🔗';
