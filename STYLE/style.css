@@ -2,6 +2,12 @@
 
 /*-------------CONFIG GLOBAIS-------------*/
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --fonte-titulo-principal: 'Pacifico', cursive;
     --fonte-sub-titulo: 'VT323', monospace;
@@ -18,21 +24,22 @@
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family: var(--fonte-padrao);
-}
-
-.papelParede {
     background: var(--cor01) url(../IMAGE/papeldeparede.png);
 }
 
+
+
 h1 {
-    font: lighter 3em var(--fonte-titulo-principal);
+    font: lighter 2.9em var(--fonte-titulo-principal);
     text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.363);
     text-align: center;
     color: white;
+    margin: 20px;
+}
+
+.textoDestaque {
+    font-size: 4em;
 }
 
 h2 {
@@ -67,7 +74,7 @@ header {
 }
 
 .paragrafoCenter{
-    font: lighter 1.6em var(--fonte-sub-titulo);
+    font: lighter 1.8em var(--fonte-sub-titulo);
     text-align: center;
     color: white;
 }
@@ -112,7 +119,7 @@ main {
 
 blockquote {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.3;
     border-radius: 20px;
     margin: auto;
@@ -160,7 +167,7 @@ ul {
 }
 
 img {
-    width: 100%;
+    width: 80%;
     display: block;
     margin: auto;
     margin-bottom: 20px;
@@ -297,4 +304,12 @@ footer {
 .linkJogo:hover {
     color: var(--cor04);
     background-color: white;
+}
+
+.divulgacao {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin: 5px;
+    text-align: right;
 }
