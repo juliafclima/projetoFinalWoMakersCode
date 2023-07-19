@@ -21,7 +21,7 @@ controls.forEach((control) => {
       currentItem = maxItems - 1;
     }
 
-    items.forEach(item => item.classList.remove("currentItem"));
+    items.forEach((item) => item.classList.remove("currentItem"));
 
     items[currentItem].scrollIntoView({
       behavior: "smooth",
