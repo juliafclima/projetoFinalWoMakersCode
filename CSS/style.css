@@ -56,7 +56,7 @@ h2 {
 h3 {
     padding: 10px;
     margin: -10px -10px 0 -10px;
-    border-radius: 10px 10px 0 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 p {
@@ -148,7 +148,7 @@ strong {
     position: relative;
     background-color: var(--cor05);
     box-shadow: -3px 3px 20px 3px rgba(0, 0, 0, 0.174);
-    margin: 0px -50px 30px -50px;
+    margin: 0 -50px 30px -50px;
     padding: 20px;
     padding-bottom: 58%;
 }
