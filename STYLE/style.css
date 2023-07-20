@@ -290,45 +290,20 @@ a:hover {
 
 /*-------------RODAPE-------------*/
 
-/* footer {
-    background-color: var(--cor04);
-    padding: 5px;
-    text-align: center;
-    color: white;
+footer, footer > div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
-
-.linkJogo {
-    color: white;
-}
-
-.linkJogo:hover {
-    color: var(--cor04);
-    background-color: white;
-}
-
-.divulgacao {
-    width: 30px;
-    height: 30px;
-    display: inline;
-    margin: 5px;
-    text-align: right;
-} */
-
 
 footer {
-    display: flex;
-    gap: 1rem;
     height: 0vh;
-    justify-content: center;
     padding: 20px;
     align-items: center;
     background-color: var(--cor04);
 }
 
 footer > div {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
     flex-wrap: wrap;
 }
 
