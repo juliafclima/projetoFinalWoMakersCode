@@ -1,3 +1,4 @@
+// CONTROLADOR DO CARROUSEL
 const controls = document.querySelectorAll(".control");
 let currentItem = 0;
 const items = document.querySelectorAll(".item");
