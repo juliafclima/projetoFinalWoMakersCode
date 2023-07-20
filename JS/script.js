@@ -33,4 +33,3 @@ controls.forEach((control) => {
     items[currentItem].classList.add("currentItem");
   });
 });
-
