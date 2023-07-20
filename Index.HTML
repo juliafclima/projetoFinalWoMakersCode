@@ -6,9 +6,7 @@
     <title>Carol Shaw - Primeira mulher a desenvolver um jogo eletrônico!</title>
     <meta name="description" content="Página desenvolvida como projeto final do programa de imersão Programação Web para Iniciantes, promovido pela WoMakers Code">
     <meta name="author" content="Júlia Lima Fernandes Carneiro">
-    <meta name="keywords" content="html, css, javascript, programming, female programming, development">    
-    <link rel="stylesheet" href="STYLE/style.css">
-    <script src="JS/script.js" defer></script>
+    <meta name="keywords" content="html, css, javascript, programming, female programming, development, games, gamer, gamergirl, gamergirls, girlswhocode, mulheresnatecnologia, code, videogames, carolshaw, computerscience, jogosdecomputador, jogos, gamestagram, atariges, atarist, atari2600">    
     <link rel="shortcut icon" href="IMAGE/favicon/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/stylenav.css">
+    <script src="JS/script.js" defer></script>
+    <script src="JS/scriptnav.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,54 +25,115 @@
         <p class="paragrafoCenter">Primeira mulher a desenvolver um jogo eletrônico</p>
     </header>
 
-    <nav>
-        <a href="#ORIGEM" title="Origem da Carol Shaw" rel="Next" class="linkNav">Origem</a>
-        <a href="#CARREIRA" title="Carreira da Carol Shaw" rel="Next"  class="linkNav">Carreira</a>
-        <a href="#APOSENTADORIA" title="Aposentadoria da Carol Shaw" rel="Next"  class="linkNav">Aposentadoria</a>
-        <a href="#FOTOS" title="Fotos da Carol Shaw" rel="Next"  class="linkNav">Fotos</a>
+    <nav class="navBar">
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navMenu">
+                <li class="navItem">
+                    <a href="#ORIGEM" title="Origem da Carol Shaw" class="navLink">Origem</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#CARREIRA" title="Carreira da Carol Shaw" class="navLink">Carreira</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#ATARI" title="Carol Shaw na empresa ATARI" class="navLink">Atari</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#APOSENTADORIA" title="Aposentadoria da Carol Shaw" class="navLink">Aposentadoria</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#FOTOS" title="Fotos da Carol Shaw" class="navLink">Fotos</a>
+                </li>
+            </ul>
     </nav>
 
-    <main id="ORIGEM">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <main>
         <h1 class="fontePreta">Grandes Mulheres da Tecnólogia</h1>
 
         <blockquote>“O tamanho dos seus sonhos deve sempre exceder a sua capacidade de alcançá-los.<br>Se os seus sonhos não te assustam, eles não são grandes o suficiente.”<br>Ellen Johnson-Sirleaf, primeira mulher a ser eleita chefe de estado de um país africano</blockquote>
 
         <section>            
-            <article>
+            <article id="ORIGEM">
                 <h2>Origem</h2>
-                <p>Nascida em 1955, se formou em Engenharia elétrica e logo depois virou mestre em ciência da computação. Jogadora desde sua adolescência, adorava fliperamas como “Computer Space”.</p>
+                <p>Nascida em 1955, se formou em Engenharia elétrica e logo depois virou mestre em ciência da computação. Jogadora desde sua adolescência, adorava fliperamas como “Computer Space”. Shaw é filha do meio de dois irmãos. Seu pai era engenheiro mecânico e trabalhava na Stanford Linear Accelerator Center (laboratório de projetos energéticos para o governo) e sua mãe dona de casa.</p>
                 <div>
-                    <img src="IMAGE/imagemain/CarolShawVertical.png" alt="Carol Shaw">
+                    <img src="IMG/imagemain/CarolShawVertical.png" alt="Carol Shaw">
                 </div>
                 <div class="aside">
                     <aside>
                         <h3 class="h3Aside">Você sabia?</h3>
-                        <p><strong>Computer Space</strong> é um videogame arcade de combate espacial lançado em 1971. Criado por <a href="https://pt.wikipedia.org/wiki/Nolan_Bushnell" title="Wikipedia do Nolan Bushnell" target="_blank" class="linkExterno">Nolan Bushnell</a> e <a href="https://pt.wikipedia.org/wiki/Ted_Dabney" title="Wikipedia do Ted Dabney" target="_blank" class="linkExterno">Ted Dabney</a> (fundadores da Empresa Atari, Inc), foi o primeiro videogame arcade e também o primeiro videogame disponível comercialmente.</p>
+                        <p><strong>Computer Space</strong> é um videogame arcade de combate espacial lançado em 1971. Criado por <a href="https://pt.wikipedia.org/wiki/Nolan_Bushnell" title="Wikipedia Nolan Bushnell" target="_blank" class="linkExterno">Nolan Bushnell</a> e <a href="https://pt.wikipedia.org/wiki/Ted_Dabney" title="Wikipedia Ted Dabney" target="_blank" class="linkExterno">Ted Dabney</a> (fundadores da Empresa Atari, Inc), foi o primeiro videogame arcade e também o primeiro videogame disponível comercialmente.</p>
                         <div>
-                            <img src="IMAGE/imagemain/jogoComputerSpace.png" alt="Exemplo do jogo Computer Space">
+                            <img src="IMG/imagemain/jogoComputerSpace.png" alt="Exemplo do jogo Computer Space">
                         </div>
                     </aside>
                 </div>
             </article>
             
-            <article>
-                <h2 id="CARREIRA">Carreira na industria dos games</h2>
+            <article id="CARREIRA">
+                <h2>Carreira na industria dos games</h2>
                 <p>Depois de passar rapidamente pela <strong>Tandem Computers</strong>, foi contratada como engenheira de softwares pela <strong><abbr title="Atari, Inc">Atari</abbr></strong> logo que se formou na universidade, foi lá que desenvolveu seus dois primeiros jogos, ambos para o Atari 2600.</p>
                 <div class="conteinerJogosShaw">
                     <div class="jogosShaw">
-                        <img src="IMAGE/imagemain/jogoPolo.png" alt="Jogo Polo">
+                        <img src="IMG/imagemain/jogoPolo.png" alt="Jogo Polo">
                     </div>
 
                     <div class="jogosShaw">
-                        <img src="IMAGE/imagemain/jogo3DTicTacToe.png" alt="Jogo 3D Tic Tac Toe"">
+                        <img src="IMG/imagemain/jogo3DTicTacToe.png" alt="Jogo 3D Tic Tac Toe"">
                     </div>
                 </div>
                 <p>Saindo da companhia que se tornou o símbolo da revolução dos videogames no mundo, <strong>Shaw</strong> foi trabalhar na <strong><abbr title="Activision Publishing, Inc">Activision</abbr></strong>, que, na época, fabricava cartuchos para o Atari 2600. Lá, a desenvolvedora programou seu game de maior sucesso, <strong>River Raid</strong>, considerado um clássico e um dos jogos mais populares de sua época.</p>
             </article>
 
+            <article id="ATARI">
+                <h2>Empresa Atari, Inc</h2>
+                <p>Em entrevista a revista Vintage Computing, Shaw conta os preconceitos que sofreu por ser mulher ao trabalhar com games, ainda mais que ela não havia produzido jogos antes.</p>
+                <p><i>“Uma vez, quando eu estava trabalhando no laboratório, <a href="https://pt.wikipedia.org/wiki/Ray_Kassar" title="WikiPedia Ray Kassar" target="_blank">Ray Kassar</a>, o presidente da Atari, estava fazendo um tour pelo local e falou: ‘Nós temos uma mulher desenvolvedora de jogos. Ela pode fazer a combinação de cores e a decoração interior dos cartuchos’. E estes eram dois tópicos que eu não tinha interesse.”</i>, lembra Shaw.</p>
+                <p>Na Atari, ela fez programação e design, em cinco jogos.</p>
+                <img src="IMG/imagemain/videogame Atari-2600.png" alt="Video-game Atari">
+            </article>
+            
             <article>
                 <h2>O jogo que mudou a sua vida</h2>
-                <p>O game introduziu mecânicas nunca antes vista, como a movimentação do avião para os lados, para frente e para trás, além de introduzir a limitação do combustível, já que sem ele você também morria. Alem de possuir velocidades diferentes e colisão com diferentes objetos. E por isso é considerado o pai do <abbr title="Locais onde o personagem do jogador reaparece após a morte"><strong>Checkpoint</strong></abbr>, pois era necessário que a aeronave controlada pelo jogador abastecesse para continuar seu trajeto.</p>
+                <p><strong>River Raid</strong> introduziu mecânicas nunca antes vista, como a movimentação do avião para os lados, para frente e para trás, além de introduzir a limitação do combustível, já que sem ele você também morria. Alem de possuir velocidades diferentes e colisão com diferentes objetos. E por isso é considerado o pai do <abbr title="Locais onde o personagem do jogador reaparece após a morte"><strong>Checkpoint</strong></abbr>, pois era necessário que a aeronave controlada pelo jogador abastecesse para continuar seu trajeto.</p>
                 <p>Foi eleito como <strong>o jogo mais desafiador</strong> pela revista <a href="https://www.infoworld.com/" title="Revista InfoWord" target="_blank" class="linkExterno">InfoWorld</a>. No ano seguinte, em 1984, foi considerado como <strong>"O jogo mais jogável e divertido do mundo"</strong> pela revista <a href="https://www.deseret.com/" title="Revista The Desert" target="_blank" class="linkExterno">The Desert News</a>, e ganhou o prêmio de <strong>"melhor game de ação do ano"</strong> e um certificado de mérito na categoria <strong>“1984 Best Computer Action Game”</strong> durante o 5º Arkie Awards.</p>
                 <p>Em 2017, recebeu o prêmio de <strong>Ícone da Industria</strong>, dado pela <a href="https://thegameawards.com/" title="Premiação The Game Awards" target="_blank" class="linkExterno">The Game Awards</a>, graças ao seu imenso trabalho e legado deixado no desenvolvimento de jogos.</p>
                 
@@ -79,8 +142,8 @@
                 </div>
             </article>
 
-            <article>
-                <h2 id="APOSENTADORIA">Aposentadoria antecipada</h2>
+            <article id="APOSENTADORIA">
+                <h2>Aposentadoria antecipada</h2>
                 <p>Carol se aposentou em 1990, mas ao deixar os games de lado, se dedicou a trabalhos voluntários em organizações relacionadas com tecnologia.</p>
                 <p>Atualmente, com seus 68 anos de idade, vive uma vida tranquila na Califórnia com seu marido <strong>Ralph Merkle</strong>, um cientista e pesquisador na área de <abbr title="Ciência que se dedica ao estudo da manipulação da matéria numa escala atómica e molecular">nanotecnologia</abbr> com quem se casou em 1983.</p>
                 
@@ -89,12 +152,12 @@
                     <button class="setaDireita control" aria-label="Next image">▶</button>
                     <div class="carrousel">
                         <div class="galeria">
-                            <img src="IMAGE/carousel/carolShawAtualmente.png" alt="Carol Shaw atualmente" class="item currentItem">
-                            <img src="IMAGE/carousel/carolShawMarido.png" alt="Carol Shaw e seu marido" class="item">
-                            <img src="IMAGE/carousel/carolShawEstudando.png" alt="Carol Shaw estudando" class="item">
-                            <img src="IMAGE/carousel/carolShawPremio.png" alt="Carol Shaw com seu prêmio de jogo mais vendido da época" class="item">
-                            <img src="IMAGE/carousel/carolShawPremios.png" alt="Carol Shaw com seu prêmios" class="item">
-                            <img src="IMAGE/carousel/carolShawTrabalhando.png" alt="Carol Shaw trabalhando" class="item">
+                            <img src="IMG/carousel/carolShawAtualmente.png" alt="Carol Shaw atualmente" class="item currentItem">
+                            <img src="IMG/carousel/carolShawMarido.png" alt="Carol Shaw e seu marido" class="item">
+                            <img src="IMG/carousel/carolShawEstudando.png" alt="Carol Shaw estudando" class="item">
+                            <img src="IMG/carousel/carolShawPremio.png" alt="Carol Shaw com seu prêmio de jogo mais vendido da época" class="item">
+                            <img src="IMG/carousel/carolShawPremios.png" alt="Carol Shaw com seu prêmios" class="item">
+                            <img src="IMG/carousel/carolShawTrabalhando.png" alt="Carol Shaw trabalhando" class="item">
                         </div>
                     </div>
                 </div>
@@ -115,13 +178,13 @@
 
             <div class="divFooter">
                 <a href="https://github.com/juliafclima" title="GitHub" target="_blank" class="linkFooter">
-                    <img src="IMAGE/redessociais/github-logo.png" alt="GitHub" class="linkFooter">
+                    <img src="IMG/redessociais/github-logo.png" alt="GitHub" class="linkFooter">
                 </a>
             </div>
 
             <div class="divFooter">
                 <a href="https://www.linkedin.com/in/juliafclima/" title="LinkedIn" class="linkFooter">
-                    <img src="IMAGE/redessociais/linkedin.png" alt="LinkedIn" class="linkFooter">
+                    <img src="IMG/redessociais/linkedin.png" alt="LinkedIn" class="linkFooter">
                 </a>
             </div>
         </div>
